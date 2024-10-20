@@ -1,42 +1,122 @@
+/* Set forest green background for the whole page */
 body {
+    background-color: #023602; /* Forest green */
+    color: white;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
 }
 
-header {
-    background-color: #4CAF50;
-    padding: 10px;
+/* Center content and style the container */
+.container {
     text-align: center;
 }
 
+/* Apply Playfair Display for all headings */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400; /* Regular weight */
+}
+
+/* Style the heading (Tyler McKenzie) */
+h1 {
+    font-size: 5em; /* Larger font size for 'Tyler McKenzie' */
+    margin-bottom: 20px;
+}
+
+/* Style the navigation links */
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
-main {
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph text styling */
+p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400; /* Regular weight */
+}
+
+/* About Page Styling */
+/* Container styling for the About page */
+.container-about {
+    background-color: white; /* White background for About page */
+    color: #333; /* Dark text for contrast */
+    border: 5px solid #228B22; /* Forest green border */
+    margin: 50px auto;
     padding: 20px;
+    width: 80%; /* Adjust as necessary */
+    max-width: 800px;
+    text-align: center;
 }
 
-footer {
-    background-color: #4CAF50;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+/* Headings on About page */
+.container-about h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
+
+/* Paragraph styling on About page */
+.container-about p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Navigation link on About page */
+.container-about nav a {
+    color: #228B22; /* Forest green link */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.container-about nav a:hover {
+    text-decoration: underline;
+}
+
+/* Project sections styling */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+section a {
+    color: #228B22; /* Forest green for links */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
