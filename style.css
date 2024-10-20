@@ -1,6 +1,6 @@
-/* Set forest green background for the whole page */
+/* background */
 body {
-    background-color: #023602; /* Forest green */
+    background-color: #023602; 
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,24 +11,24 @@ body {
     height: 100vh; /* Full height of the viewport */
 }
 
-/* Center content and style the container */
+/* center */
 .container {
     text-align: center;
 }
 
-/* Apply Playfair Display for all headings */
+/* font */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 400; /* Regular weight */
 }
 
-/* Style the heading (Tyler McKenzie) */
+/* style heading */
 h1 {
-    font-size: 5em; /* Larger font size for 'Tyler McKenzie' */
+    font-size: 5em; 
     margin-bottom: 20px;
 }
 
-/* Style the navigation links */
+/* Style links */
 nav ul {
     list-style: none;
     padding: 0;
@@ -56,35 +56,35 @@ p {
 }
 
 /* About Page Styling */
-/* Container styling for the About page */
+/* background */
 .container-about {
-    background-color: white; /* White background for About page */
-    color: #333; /* Dark text for contrast */
-    border: 5px solid #228B22; /* Forest green border */
+    background-color: white; 
+    color: #333; /* text */
+    border: 5px solid #228B22; /* border */
     margin: 50px auto;
     padding: 20px;
-    width: 80%; /* Adjust as necessary */
+    width: 80%; 
     max-width: 800px;
     text-align: center;
 }
 
-/* Headings on About page */
+/* Headings  */
 .container-about h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-/* Paragraph styling on About page */
+/* paragraph */
 .container-about p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.2em;
     line-height: 1.6;
 }
 
-/* Navigation link on About page */
+/* border */
 .container-about nav a {
-    color: #228B22; /* Forest green link */
+    color: #228B22; 
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -93,7 +93,7 @@ p {
     text-decoration: underline;
 }
 
-/* Project sections styling */
+/* Project styling */
 section {
     margin-bottom: 40px;
 }
@@ -111,12 +111,18 @@ section p {
 }
 
 section a {
-    color: #228B22; /* Forest green for links */
+    color: #228B22; 
     text-decoration: none;
     font-size: 1.2em;
 }
 
 section a:hover {
     text-decoration: underline;
+}
+
+.profile-picture {
+    width: 200px; 
+    border-radius: 50%; /* round */
+    margin-bottom: 20px; 
 }
 
